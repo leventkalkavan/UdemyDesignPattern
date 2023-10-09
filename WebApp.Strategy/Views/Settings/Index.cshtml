@@ -1,0 +1,13 @@
+@{
+    ViewData["Title"] = "Index";
+}
+@using WebApp.Strategy.Models
+@using Microsoft.AspNetCore.Mvc.TagHelpers
+@model WebApp.Strategy.Models.Settings
+
+<form asp-controller="Settings" asp-action="ChangeDatabase" method="post">
+    <select name="databaseType" asp-for="DatabaseType" asp-items="Html.GetEnumSelectList<EDatabaseType>()"></select>
+
+
+    <button type="submit">Güncelle</button>
+</form>
