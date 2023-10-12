@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Send Email";
+}
+
+<h2>Product Excel Dökümü</h2>
+
+<form asp-controller="Home" asp-action="SendEmail" method="post">
+    <label for="emailAddress">E-Posta Adresi:</label>
+    <input type="text" id="emailAddress" name="emailAddress" required />
+
+    <button type="submit">E-Posta Gönder</button>
+</form>
