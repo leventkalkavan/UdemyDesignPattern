@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp.ChainofResponsibilit
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp.Composite", "WebApp.Composite\WebApp.Composite.csproj", "{C5C082A8-101A-4EC8-98AF-0E3155BA49C8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp.Decorator", "WebApp.Decorator\WebApp.Decorator.csproj", "{652D0FF1-A264-44A2-B00B-BA4714E78C2F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,5 +45,9 @@ Global
 		{C5C082A8-101A-4EC8-98AF-0E3155BA49C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C5C082A8-101A-4EC8-98AF-0E3155BA49C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C5C082A8-101A-4EC8-98AF-0E3155BA49C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{652D0FF1-A264-44A2-B00B-BA4714E78C2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{652D0FF1-A264-44A2-B00B-BA4714E78C2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{652D0FF1-A264-44A2-B00B-BA4714E78C2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{652D0FF1-A264-44A2-B00B-BA4714E78C2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
