@@ -30,7 +30,7 @@ builder.Services.AddScoped<IProductRepository>(sp =>
     var productRepository = new ProductRepository(context);
     var logService = sp.GetRequiredService<ILogger<ProductRepositoryLoggingDecorator>>();
 
-    if (httpContextAccessor.HttpContext.User.Identity.Name == "user1")
+    if (httpContextAccessor.HttpContext.User.Identity.Name == "levent")
     {
         var cacheDecorator = new ProductRepositoryCacheDecorator(productRepository, memoryCache);
         return cacheDecorator;
